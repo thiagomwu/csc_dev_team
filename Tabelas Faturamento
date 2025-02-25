@@ -1,7 +1,7 @@
 ```sql
 CREATE TABLE View (
-    faturamento DECIMAL(10, 2),
-    cnpj VARCHAR(18),
+    faturamento DECIMAL(10, 3),
+    cnpj VARCHAR(20),
     segmento VARCHAR(50),
     nota_fiscal VARCHAR(20),
     data_contabil DATE,
