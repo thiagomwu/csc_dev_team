@@ -1,0 +1,20 @@
+```sql
+CREATE TABLE View (
+    faturamento DECIMAL(10, 2),
+    cnpj VARCHAR(18),
+    segmento VARCHAR(50),
+    nota_fiscal VARCHAR(20),
+    data_contabil DATE,
+    data_pagamento DATE
+);
+```
+## Table: View
+
+| Column          | Description       |
+|-----------------|-------------------|
+| faturamento     | Revenue           |
+| cnpj            | CNPJ              |
+| segmento        | Segment           |
+| nota fiscal     | Invoice           |
+| data contabil   | Accounting Date   |
+| data pagamento  | Payment Date      |
